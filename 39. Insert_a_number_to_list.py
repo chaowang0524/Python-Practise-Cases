@@ -23,7 +23,7 @@ def insert_number(n: int, a: list) -> list:
     """
 
     a.append(0)
-    print("Appended with 0: ", a)
+    # print("Appended with 0: ", a)
     i = len(a)  # get the length
 
     # compare n with the last number in the list,
@@ -51,9 +51,11 @@ def insert_number(n: int, a: list) -> list:
             a[i-y] = n
             x += 1
             y += 1
+            if y > len(a):
+                break
         # if n is great than or equal to compared number:
         # replace it with n
     return a
 
 
-print(insert_number(2, lst))
+print(insert_number(5, lst))

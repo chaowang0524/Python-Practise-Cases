@@ -11,3 +11,7 @@ b = 20
 a = a+b # get the sum (c) of the two values
 b = a-b # subtract b from the sum (c), leaves a and assign it to b 
 a = a-b # subtract the new b (the swapped b) from the sum (c), leaves a and assign it to a so swap is achieved
+
+# swap directly
+
+a, b = b, a

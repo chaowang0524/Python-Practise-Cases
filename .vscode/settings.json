@@ -1,0 +1,5 @@
+{
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.formatting.blackPath": "./Library/Python/3.11/lib/python/site-packages (from black) (2.5.4)"
+}

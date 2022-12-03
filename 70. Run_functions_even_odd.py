@@ -44,4 +44,4 @@ def run_input(n:int)->float:
         return funcb(n)
 
 
-run_input(10)
+run_input(6)
